@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import imgs from  "../../../public/user1.webp"
 
 const initialState = {
   users: [
@@ -7,7 +8,7 @@ const initialState = {
       name: "Usman",
       lastMessage: "Ohky..",
       time: "1d",
-      img: "/public/user1.webp",
+      img: "/MessengerApp/public/user1.webp",
       lastActive: 'Active 17h ago',
       msgs: [
         { text: "Guess what..", sender: "other", time: "10:16 PM" },
@@ -54,7 +55,7 @@ const initialState = {
         name: "Aima",
         lastMessage: "Hey!",
         time: "1d",
-        img: "/public/user2.webp",
+        img: "/MessengerApp/public/user2.webp",
         lastActive: 'Active 11h ago',
         msgs: [
           { text: "Hey!", sender: "other", time: "10:16 PM" },
@@ -85,7 +86,7 @@ const initialState = {
         name: "Amna",
         lastMessage: "Hey!",
         time: "1d",
-        img: "/public/user3.webp",
+        img: "/MessengerApp/public/user3.webp",
         lastActive: 'Active 1h ago',
         msgs: [
           { text: "Hellow", sender: "me", time: "10:16 PM" },
@@ -115,7 +116,7 @@ const initialState = {
         name: "Armaan",
         lastMessage: "Bye",
         time: "35m",
-        img: "/public/user4.webp",
+        img: "/MessengerApp/public/user4.webp",
         lastActive: 'Active 29m ago',
         msgs: [
           { text: "Hellow", sender: "me", time: "10:16 PM" },
@@ -140,7 +141,7 @@ const initialState = {
         name: "Orhan",
         lastMessage: "Coming..",
         time: "1h",
-        img: "/public/user5.webp",
+        img: "/MessengerApp/public/user5.webp",
         lastActive: 'Active 58m ago',
         msgs: [
           { text: "Hellow", sender: "me", time: "10:16 PM" },
@@ -170,7 +171,7 @@ const initialState = {
         name: "Ali",
         lastMessage: "Ohky..",
         time: "1d",
-        img: "/public/user6.webp",
+        img: "/MessengerApp/public/user6.webp",
         lastActive: 'Active 19m ago',
         msgs: [
           { text: "Hellow", sender: "me", time: "10:16 PM" },
@@ -195,7 +196,7 @@ const initialState = {
         name: "Haleema",
         lastMessage: "Ok",
         time: "1d",
-        img: "/public/user7.webp",
+        img: "/MessengerApp/public/user7.webp",
         lastActive: 'Active 19h ago',
         msgs: [
           { text: "Hellow", sender: "me", time: "10:16 PM" },
@@ -225,7 +226,7 @@ const initialState = {
         name: "Ghazi",
         lastMessage: "acha",
         time: "12h",
-        img: "/public/user8.webp",
+        img: "/MessengerApp/public/user8.webp",
         lastActive: 'Active 7h ago',
         msgs: [
           { text: "Hellow", sender: "me", time: "10:16 PM" },
@@ -255,7 +256,7 @@ const initialState = {
         name: "Alaudin",
         lastMessage: "Thanks..",
         time: "2d",
-        img: "/public/user9.webp",
+        img: "/MessengerApp/public/user9.webp",
         lastActive: 'Active 2m ago',
         msgs: [
           { text: "Hellow", sender: "me", time: "10:16 PM" },
@@ -285,7 +286,7 @@ const initialState = {
         name: "Ayesha",
         lastMessage: "Alhamdulillah good",
         time: "4d",
-        img: "/public/user10.webp",
+        img: "/MessengerApp/public/user10.webp",
         lastActive: 'Active 12m ago',
         msgs: [
           { text: "Salam", sender: "me", time: "10:16 PM" },
